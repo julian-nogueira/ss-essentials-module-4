@@ -2,6 +2,12 @@ package com.ss.jb.four;
 
 import java.util.Random;
 
+/**
+ * The Consumer object works with a Warehouse object, such that the Consumer
+ * can consume items, in the form of integers, from the Warehouse. Prior to
+ * consuming an item, the Consumer will sleep for up to two seconds to exhibit
+ * some delay within the program.
+ */
 public class Consumer implements Runnable {
 	private Warehouse warehouse;
 	
